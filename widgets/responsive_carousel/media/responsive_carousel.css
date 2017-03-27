@@ -1,0 +1,54 @@
+.crsl-items {
+    position: relative;
+}
+
+.crsl-items figcaption {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.crsl-items  a, .crsl-items  a:hover, .crsl-items  a:focus {
+    color: #ffffff;
+}
+
+.crsl-items a:hover {
+    text-decoration: none;
+}
+
+.crsl-items figcaption a, .crsl-items figcaption, .crsl-items figcaption p {
+    margin: 0;
+    padding: 0;
+}
+
+.crsl-items figcaption {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.crsl-items figcaption h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+}
+
+#nav-responsive-carousel a {
+    position: absolute;
+    z-index: 100;
+    top: 45%;
+    padding: 0 10px;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.74);
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.43);
+    border-radius: 20px;
+}
+
+#nav-responsive-carousel a.previous {
+    left: 5px;
+}
+
+#nav-responsive-carousel a.next {
+    right: 5px;
+}
+
